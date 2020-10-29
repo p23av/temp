@@ -1,0 +1,17 @@
+.box {
+  border: 4px solid darkred;
+  color: #358b38;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.slide {
+  transition: .3s ease-in-out;
+}
+.slide-enter {
+  transform: translateX(200px);
+}
+.slide-leaave {
+  transform: translateX(200px);
+}

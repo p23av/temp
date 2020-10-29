@@ -1,0 +1,76 @@
+#canvas {
+  display: block;
+  cursor: crosshair;
+}
+
+// .canvas {
+// }
+header {
+  position: fixed;
+  top: 0;
+  height: 50px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #e6e6e6;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ccc;
+  box-shadow: 0 3px 5px #e6e6e6;
+  display: flex;
+  align-items: stretch;
+  // .save-canvas {
+  //   position: absolute;
+  //   top: 20px;
+  //   left: 20px;
+  // }
+  .save {
+    padding: 0 20px;
+    button {
+      height: 100%;
+      padding: 0 20px;
+    }
+  }
+  .real-size {
+    display: flex;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 2px solid #111;;
+    margin: 0 0 0 20px;
+    background-color: #fff;
+    #circle {
+      border-radius: 100%;
+      background-color: #000;
+    }
+  }
+  .input-size input {
+    height: 100%;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    border: 2px solid #111;
+    border-left: none
+  }
+  .color-box {
+    width: 50px;
+    background-color: #fff;
+    margin: 0 0 0 20px;
+    box-sizing: border-box;
+    border: 2px solid #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    #color {
+      width: 30px;
+      height: 30px;
+    }
+  }
+  .input-color {
+    width: 50px;
+    #color-picker {
+      height: 100%;
+      box-sizing: border-box;
+      border: 2px solid #111;
+    }
+  }
+}
+

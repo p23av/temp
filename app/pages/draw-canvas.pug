@@ -1,0 +1,12 @@
+doctype html
+html(lang="ru")
+include modules/head
+body.canvas
+    include  modules/black-box
+    include modules/header
+    section
+        p.save-canvas save
+        canvas#canvas Hello
+    include modules/footer
+//script(src="https://unpkg.com/imask")
+script(src="js/scripts.min.js")

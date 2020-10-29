@@ -1,0 +1,68 @@
+@import "vars";
+@import "fonts";
+@import "libs";
+@import "black-box";
+@import "header";
+@import "footer";
+@import "hero";
+@import "canvas";
+@import "tetris";
+@import "vue";
+@import "click-game";
+@import "text-animation";
+
+
+::placeholder {
+	color: #666;
+}
+
+::selection {
+	background-color: $accent;
+	color: #fff;
+}
+
+img {
+	user-select: none;
+}
+a {
+	color: inherit;
+	&:hover {
+		color: inherit;
+		text-decoration: none;
+	}
+}
+p, h1, h2, h3, ul, li {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style-type: none;
+}
+body {
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+	line-height: 1.65;
+	font-family: $default-font;
+	overflow-x: hidden;
+	color: $text;
+	input, textarea {
+		border: #666 1px solid;
+		outline: none;
+		&:focus:required:invalid {
+			border-color: red;
+		}
+		&:required:valid {
+			border-color: green;
+		}
+	}
+}
+
+
+b, strong {
+	font-weight: bold;
+}
+
+
+
+@import "media"; // Always at the end

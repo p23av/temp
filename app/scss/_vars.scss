@@ -1,0 +1,17 @@
+//$default-font: "roboto-example", sans-serif;
+$default-font: 'ProximaNova-Regular', sans-serif;
+$semibold-font: 'ProximaNova-Semibold', sans-serif;
+$bold-font: 'ProximaNova-Bold', sans-serif;
+$accent: #000;
+$text: #171921;
+
+$def-font-color: #171921;
+$def-font-color-light: #5d5e64;
+
+// Customization Bootstrap vars from "app/libs/bootstrap/scss/_variables.scss"
+$grid-gutter-width: 40px;
+$grid-columns: 12;
+$grid-breakpoints: (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px);
+$container-max-widths: (sm: 540px, md: 720px, lg: 960px, xl: 1320px);
+
+$gutter: $grid-gutter-width;

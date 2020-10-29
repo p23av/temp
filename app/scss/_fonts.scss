@@ -1,0 +1,11 @@
+@import "_mixins/font-face";
+
+
+
+@include font-face("roboto-example", "../fonts/RobotoRegular/RobotoRegular");
+@include font-face("roboto-example", "../fonts/RobotoBold/RobotoBold", bold);
+
+@include font-face("ProximaNova-Regular", "../fonts/ProximaNovaRegular/ProximaNova-Regular");
+@include font-face("ProximaNova-Semibold", "../fonts/ProximaNovaSemibold/ProximaNova-Semibold", semibold);
+@include font-face("ProximaNova-Bold", "../fonts/ProximaNovaBold/ProximaNova-Bold", bold);
+
